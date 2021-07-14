@@ -1,3 +1,5 @@
 .DS_Store
 build/latest
 data
+foundry-data.tar.gz*
+logrotate.state

@@ -167,3 +167,10 @@ The instructions below can be used on any Linux distributions. The following com
     ```
 
 8. Visit `https://foundryvtt.example.com:30000` on your browser and you will be presented with your FoundryVTT secured using TLS.
+
+9. Automatic backups
+    ```bash
+    sudo apt-get install minetest awscli
+    aws configure
+    sudo cp backup-foundry-data-cron /etc/cron.d/
+    ```

@@ -1,0 +1,1 @@
+0 5 * * * filhit bash -c '/home/filhit/foundryvtt-docker-deploy/backup.sh > >(/usr/bin/logger -t foundry-backup -p user.info) 2> >(/usr/bin/logger -t foundry-backup -p user.err)'
