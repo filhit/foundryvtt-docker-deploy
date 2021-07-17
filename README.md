@@ -4,7 +4,7 @@
 
 This repository contains instructions for self-hosting [Foundry](https://foundryvtt.com)VTT service on your own computer or server using Docker. These instructions have been tested on ArchLinux and Ubuntu 20.04 LTS, however they should would unmodified on other platforms. 
 
-This instance has been deployed on a [Digital Ocean](https://m.do.co/c/cd25d8b32728) VPS provider (contains affiliate link) but other VPS cloud providers can be used.
+This instance has been deployed on a [Digital Ocean](https://m.do.co/c/708b58d46cf0) VPS provider (contains affiliate link) but other VPS cloud providers can be used.
 
 ## Pre-requisites
 
