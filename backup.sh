@@ -5,7 +5,7 @@ echo "Starting foundry backup"
 echo "Rotating local backups"
 /usr/sbin/logrotate -f -s $scriptdir/logrotate.state $scriptdir/logrotate.conf
 echo "Backing up to file"
-tar -C $scriptdir/ -c data | gzip > $scriptdir/foundry-data.tar.gz
+tar --directory=$scriptdir/ --exclude-tag-under=_PUT_YOUR_MAP_FOLDERS_IN_HERE.txt -c data | gzip > $scriptdir/foundry-data.tar.gz
 if [ "$1" == "--no-remote" ]; then
   echo "Skipping remote backup"
 else
