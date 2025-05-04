@@ -1,4 +1,4 @@
-FROM node:lts-alpine3.12
+FROM node:18-alpine3.17
 
 ADD latest /foundryvtt
 
